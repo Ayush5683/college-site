@@ -1,0 +1,182 @@
+body{
+    /* background-color: blue; */
+    margin: 0;
+    padding: 0;
+}
+
+.toparea{
+    background-color: #B35550;
+    padding: 10px 0;
+    color: #fff;
+    text-align: center;
+}
+
+.logoarea{
+    background-color: #F2C38B;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.logoarea img{
+    width: 100px;
+}
+
+.logoarea h1{
+    font: bold 40px arial;
+    color: #74353F;
+    text-shadow: 2px 8px 6px #0003, 0 -5px 16px #ffffff4d;
+}
+
+.menuarea{
+    padding: 2px 0;
+    background-color: #F8F9FA !important;
+}
+
+.navbar-nav li a{
+    font: 14px arial;
+}
+
+.nav-link{
+    opacity: 0.7;
+}
+
+.active{
+    opacity: 1;
+}
+
+.dropdown-toggle{
+    /* padding: 10px; */
+    color: #0D6EFD;
+    border: 1px solid #0D6EFD;
+    border-radius: 5px;
+}
+
+.dropdown-toggle:hover{
+    color: white;
+    background-color: #0D6EFD;
+}
+
+.dropdown-toggle:active{
+    color: #fff;
+}
+
+
+.principal-section{
+    padding: 60px 0;
+}
+
+
+.coursearea{
+    background-image:url('pexels-repuding-12064.webp');
+    padding: 60px 0;
+    text-align: center;
+    background-position: center;
+    background-size: contain;
+    background-attachment: fixed;
+}
+
+.box{
+    width: 100%;
+    margin:15px 0;
+    padding: 30px 20px;
+    border: solid 1px #d5d5d5;
+    background-color: #fff;
+    overflow: hidden;
+    text-align: center;
+}
+
+.box img{
+    width: 80%;
+    margin: 10px 0;
+    transition: all 2s;
+    border-radius: 50%;
+}
+
+.box:hover img{
+    transform: rotate(360deg);
+}
+
+.syllabus-box{
+    padding: 20px 0;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.milestone{
+    padding: 60px 0;
+}
+
+.milestone-box{
+    padding: 10px;
+    box-shadow: 5px 5px 13px #c5c5c5, -5px -5px 13px #fff;
+}
+
+.milestone-box h5{
+    margin: 10px 0;
+    color: #754027;
+}
+
+.alumni{
+    padding: 50px 0 150px 0;
+    background: url('alumnibg.jpg') bottom center;
+}
+
+.footer{
+    padding: 30px 0;
+    background: url('footerbg.png');
+    color: #fff;
+}
+
+.footer-box{
+    width: 100%;
+    margin: 20px 0;
+}
+
+.footer-box h5{
+    padding: 0 0 0 10px;
+    border-left: solid 5px white;
+}
+
+.footer-box p,.foot-one-icon{
+    color: #f2c38b;
+    margin: 0;
+}
+
+.footer-box div{
+    margin: 10px 0;
+}
+
+.footer-box div a:link,.footer-box div a:visited{
+    color: #d37f57;
+    text-decoration: none;
+}
+
+.footer-box div a:hover{
+    color: #f2c38b;
+}
+
+.footer-links ul li{
+    margin: 5px 0;
+    transition: all 1s;
+}
+
+.footer-links ul li a:link,.footer-links ul li a:visited,.footicon{
+    color: #d37f57;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.footer-links ul li:hover{
+    transform: translateX(5px);
+}
+
+.footer-links ul li:hover a,.footer-links ul li:hover .footicon{
+    color: #91573b;
+}
+
+.hr-line{
+    margin: 15px 0;
+    width: 100%;
+    height: 1px;
+    background-image: linear-gradient(to right , transparent , #afafaf , transparent);
+}
