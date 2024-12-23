@@ -11,6 +11,11 @@ body{
     text-align: center;
 }
 
+.toparea a:link, .toparea a:visited{
+    color: #fff;
+    text-decoration: none;
+}
+
 .logoarea{
     background-color: #F2C38B;
     padding: 40px 0;
@@ -46,14 +51,20 @@ body{
 
 .dropdown-toggle{
     /* padding: 10px; */
+    width: 100px;
     color: #0D6EFD;
     border: 1px solid #0D6EFD;
     border-radius: 5px;
+    text-align: center;
 }
 
 .dropdown-toggle:hover{
     color: white;
     background-color: #0D6EFD;
+}
+
+.dropdown-menu{
+    width: 100px;
 }
 
 .dropdown-toggle:active{
@@ -67,7 +78,7 @@ body{
 
 
 .coursearea{
-    background-image:url('pexels-repuding-12064.webp');
+    background-image:url('images/pexels-repuding-12064.webp');
     padding: 60px 0;
     text-align: center;
     background-position: center;
@@ -118,12 +129,12 @@ body{
 
 .alumni{
     padding: 50px 0 150px 0;
-    background: url('alumnibg.jpg') bottom center;
+    background: url('images/alumnibg.jpg') bottom center;
 }
 
 .footer{
     padding: 30px 0;
-    background: url('footerbg.png');
+    background: url('images/footerbg.png');
     color: #fff;
 }
 
@@ -179,4 +190,13 @@ body{
     width: 100%;
     height: 1px;
     background-image: linear-gradient(to right , transparent , #afafaf , transparent);
+}
+
+@media screen and (max-width:768px){
+    .principal-image{
+        margin: 20px 0 !important;
+    }
+    .box{
+        width: 50%;
+    }
 }

@@ -111,9 +111,20 @@ body {
     padding: 20px 0 40px 0;
 }
 
+.assistant-box{
+    width: 90%;
+    margin: 50px 0 60px 0;
+    box-shadow: 0 10px 20px #00000030, 0 6px 6px #0000003b
+}
+
+.assistant-box .detail-box{
+    background-color: #F3F3F3;
+    padding: 10px 0;
+}
+
 .footer {
     padding: 30px 0;
-    background: url('footerbg.png');
+    background: url('images/footerbg.png');
     color: #fff;
 }
 
