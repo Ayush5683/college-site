@@ -1,5 +1,4 @@
 body{
-    /* background-color: blue; */
     margin: 0;
     padding: 0;
 }
@@ -50,7 +49,6 @@ body{
 }
 
 .dropdown-toggle{
-    /* padding: 10px; */
     width: 100px;
     color: #0D6EFD;
     border: 1px solid #0D6EFD;
@@ -71,93 +69,56 @@ body{
     color: #fff;
 }
 
-
-.principal-section{
+/* Gallery */
+.gallery{
     padding: 60px 0;
 }
 
-
-.coursearea{
-    background-image:url('images/pexels-repuding-12064.webp');
-    padding: 60px 0;
-    text-align: center;
-    background-position: center;
-    background-size: contain;
-    background-attachment: fixed;
-}
-
-.box{
-    background: #fff;
-    padding: 30px 20px;
-    text-align: center;
-    border: 1px solid #d5d5d5;
-    margin: 15px;
-    display: block;
-    text-decoration: none !important;
-}
-
-.box img{
-    width: 148px;
-    margin-bottom: 15px;
-    transition: all 2s;
-    border-radius: 50%;
-} 
-
-.box h3{
-    color: #2a2a2a;
-    font-size: 20px;
-    font-weight: 500;
-    padding: 6px 0;
-    text-transform: uppercase;
-}
-
-.course-anchor{
+.gallery-box{
     width: 100%;
-    height: 100%;
-    text-decoration: none !important;
-    text-align: center !important;
-}
-.box:hover img{
-    transform: rotate(360deg);
+    margin: 20px 0;
+    position: relative;
 }
 
-.course-column{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.syllabus-box{
-    padding: 20px 0;
-    border-radius: 10px;
-    background-color: #fff;
-}
-
-.milestone{
-    padding: 60px 0;
-}
-
-.milestone-box{
+.gallery-box img{
     width: 100%;
-    padding: 10px;
-    box-shadow: 5px 5px 13px #c5c5c5, -5px -5px 13px #fff;
 }
 
-.milestone-box h5{
-    text-align: center;
-    margin: 10px 0;
-    color: #754027;
+.details{
+    position: absolute;
+    bottom: 20px;
+    padding: 5px 10px;
+    background-color: #AF534E;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
 }
 
-.milestone-box h6{
-    text-align: center;
+.details h3{
+    margin: 0;
 }
 
-.alumni{
-    padding: 50px 0 150px 0;
-    background: url('images/alumnibg.jpg') bottom center;
+.gallery-box-sm{
+    width: 100%;
+    background-image: linear-gradient(to bottom ,#CC5F59, #7E332F);
+    padding: 7px;
+    box-shadow: 0 10px 20px #00000030, 0 6px 6px #0000003b;
+}
+.gallery-box-sm:hover{
+    background-image: linear-gradient(to bottom , #7E332F, #CC5F59);
 }
 
+.gallery-box-sm img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+/* Footer */
 .footer{
     padding: 30px 0;
     background: url('images/footerbg.png');
@@ -216,23 +177,4 @@ body{
     width: 100%;
     height: 1px;
     background-image: linear-gradient(to right , transparent , #afafaf , transparent);
-}
-
-@media screen and (max-width:768px){
-    .principal-image{
-        margin: 20px 0 !important;
-    }
-    .box{
-        width: 50%;
-        margin: 10px;
-    }
-    .milestone-box{
-        width: 50%;
-    }
-}
-
-@media screen and (max-width:500px){
-    .box{
-        width: 60%;
-    }
 }
